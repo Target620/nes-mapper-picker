@@ -206,7 +206,7 @@ const MapperList = [{
 }, {
     id: 34,
     name: 'bnrom',
-    maxPrg: 32,
+    maxPrg: 8,
     maxChr: 1,
     chrRam: true,
     prgRam: 0,
@@ -215,14 +215,13 @@ const MapperList = [{
     '4screenMirror': false,
     '1screenMirror': false,
     minChrWindow: 8,
-    minPrgWindow: 16,
+    minPrgWindow: 32,
     expansionAudio: false,
     cartAvailable: true,
     expandedTiles: false,
     selfFlashable: false,
 
-    notes: `This is a powerful mapper, similar to mmc3, but with the addition of expansion audio. This was used in sunsoft games back in the day. InfiniteNESLives has a modern verison of this board
-            that has been up for sale in the past. Note that it has a cpu cycle counter, but no scanline counter. Note that FME-7 supports 512k prg, however 5B only supports 256k prg.`
+    notes: `BNROM is popular for its relative simplicity, decent prg rom space and CHR RAM, as well as being a supported mapper in use of mapper 28 multicarts, such as those used in NESDev homebrew competitions.`
 
 }, {
     id: 69,
