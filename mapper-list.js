@@ -215,7 +215,7 @@ const MapperList = [{
     '4screenMirror': false,
     '1screenMirror': false,
     minChrWindow: 8,
-    minPrgWindow: 4,
+    minPrgWindow: 16,
     expansionAudio: false,
     cartAvailable: true,
     expandedTiles: false,
